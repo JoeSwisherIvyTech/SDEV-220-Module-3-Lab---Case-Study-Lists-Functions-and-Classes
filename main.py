@@ -1,4 +1,3 @@
-# todo: add checks for doors and roof constraints
 class Vehicle:
     vehicle_type = ""
 
