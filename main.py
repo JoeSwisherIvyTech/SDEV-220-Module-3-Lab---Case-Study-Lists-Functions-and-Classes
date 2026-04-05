@@ -13,6 +13,10 @@ class Automobile(Vehicle):
 
 print("Hello. Please give me some details about a car to test my Automobile class.")
 Vehicle.vehicle_type = "car"
+# The assignment says "Write an app that will accept user input for a car. 
+# The app will store 'car' into the vehicle type in your Vehicle super class. "
+# I took this to mean that this particular app is only for a car, even though the class has the Vehicle Type variable.
+# That's why the program puts in the vehicle type itself, rather than taking the user's input.
 
 user_car = Automobile()
 user_car.year = input("What year was the car made? ")
